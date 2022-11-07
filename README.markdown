@@ -17,7 +17,7 @@ The notebook `plots.ipynb` walks you through producing the plots of the paper. I
 ## 3 | Stochasticity
 In the folder `3_Stochasticity`, you find the python code for the Sample-Batch Expected SARSA algorithm.
 
-The file `Batched_ExpectedSARSA_IPD_Numba.py` contains the simulation for the Sample-Batch Expected SARSA algorithm. It requires an installation of numba (see https://numba.pydata.org/numba-doc/latest/user/installing.html) and makes use of functions defined in the file `IPD_functions.py`. 
+The file `Batched_ExpectedSARSA_IPD_Numba.py` contains the simulation for the Sample-Batch Expected SARSA algorithm. It requires an [installation of numba](https://numba.pydata.org/numba-doc/latest/user/installing.html) and makes use of functions defined in the file `IPD_functions.py`. 
 
 The parameter choices can be set in the "Simulation Parameters" section with Rt corresponding to the paremeter T, Rs corresponding to the parameter S, deltaQ corresponding to the discount factor, constanteps corresponding to the exploration rate, alpha corresponding to the learning rate, BatchK corresponding to the batch size, NBatches corresponding to the number of batches and NSamples corresponding to the number of sample trajectories. 
 
@@ -26,4 +26,5 @@ Running the simulation outputs four files: AllD.txt containing the fraction of t
 
 ---
 Feel free to reach out, or open an issue, if you have any questions.
+
 Contact: wolfram.barfuss@gmail.com | j.m.meylahn@utwente.nl
