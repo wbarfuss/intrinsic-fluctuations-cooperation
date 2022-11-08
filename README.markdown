@@ -1,6 +1,9 @@
 # Intrinsic fluctuations of reinforcement learning promote cooperation Code Repository
 This repository contains all code to reproduce the results of [this work](https://arxiv.org/abs/2209.01013).
 
+[![DOI](https://zenodo.org/badge/562998950.svg)](https://zenodo.org/badge/latestdoi/562998950)
+
+
 ## 1 | Stability
 In the folder `1_Stability`, you find the Mathematica code for determining the absorbing states and basins of attraction of the mutual best-response dynamics.
 
